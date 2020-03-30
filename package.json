@@ -1,17 +1,22 @@
 {
-    "name": "reliability-codelab",
-    "version": "0.0.1",
-    "description": "A simple Node app built on Express, instantly up and running.",
-    "main": "server.js",
-    "scripts": {
-      "start": "node server.js"
+  "short_name": "Weather",
+  "name": "Weather: Do I need an umbrella?",
+  "description": "Weather forecast information",
+  "icons": [
+    {
+      "src": "/images/icons-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
     },
-    "dependencies": {
-      "express": "^4.16.3"
-    },
-    "engines": {
-      "node": "8.x"
-    },
-    "license": "Apache-2"
-  }
-  
+    {
+      "src": "/images/icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3367D6"
+}
